@@ -54,5 +54,5 @@ app.use('/api', initialDataRoutes);
 
 
 app.listen(2000,()=>{
-    console.log(`Server is runnung on Port 2000`)
+    console.log(`Server is runnung on Port ${(process.env.PORT}`)
 });
